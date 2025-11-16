@@ -1,5 +1,5 @@
 {
-  "name": "gitpilot",
+  "name": "@hpreet/gitpilot",
   "version": "0.1.0",
   "description": "AI-powered Git commit assistant — generates commit messages intelligently and fits seamlessly into your workflow.",
   "main": "bin/gitpilot.js",
@@ -22,7 +22,6 @@
   "author": "Harpreet Singh <thesinghharpreet@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@google/genai": "^1.29.1",
     "@google/generative-ai": "^0.24.1",
     "commander": "^14.0.2",
     "inquirer": "^12.11.1",
