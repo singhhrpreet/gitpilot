@@ -3,9 +3,6 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 export class GeminiProvider {
   constructor(config) {
     this.client = new GoogleGenerativeAI(config.apiKey);
-    console.log("-------------------------------------------------");
-    console.log("Initialized GeminiProvider with provided API key.", );
-    console.log("-------------------------------------------------");
   }
 
   async generateCommitMessage(prompt) {

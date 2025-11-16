@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "AI-powered Git commit assistant — generates commit messages intelligently and fits seamlessly into your workflow.",
   "main": "bin/gitpilot.js",
+  "type": "module",
   "bin": {
     "gitpilot": "./bin/gitpilot.js"
   },
