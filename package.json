@@ -1,0 +1,29 @@
+{
+  "name": "gitpilot",
+  "version": "0.1.0",
+  "description": "AI-powered Git commit assistant — generates commit messages intelligently and fits seamlessly into your workflow.",
+  "main": "bin/gitpilot.js",
+  "bin": {
+    "gitpilot": "./bin/gitpilot.js"
+  },
+  "scripts": {
+    "start": "node bin/gitpilot.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "git",
+    "AI",
+    "commit",
+    "CLI",
+    "automation",
+    "developer-tools"
+  ],
+  "author": "Harpreet Singh",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.2",
+    "inquirer": "^12.11.1",
+    "openai": "^6.9.0",
+    "simple-git": "^3.30.0"
+  }
+}

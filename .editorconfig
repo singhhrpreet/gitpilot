@@ -1,0 +1,22 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+# Use spaces instead of tabs
+indent_style = space
+# 2 spaces per indent
+indent_size = 2
+# Trim trailing whitespace on save
+trim_trailing_whitespace = true
+# Insert final newline at end of file
+insert_final_newline = true
+# File encoding
+charset = utf-8
+
+[*.md]
+# Markdown files usually need trailing whitespace (for line breaks)
+trim_trailing_whitespace = false
+
+[*.json]
+# JSON files usually 2-space indentation
+indent_size = 2
