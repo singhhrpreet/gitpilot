@@ -1,6 +1,6 @@
 {
   "name": "@hpreet/gitpilot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI-powered Git commit assistant — generates commit messages intelligently and fits seamlessly into your workflow.",
   "main": "bin/gitpilot.js",
   "type": "module",
