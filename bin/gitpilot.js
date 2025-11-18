@@ -2,6 +2,7 @@
 import { Command } from "commander";
 import { commitCommand } from "../src/commands/commit.js";
 import { setupCommand } from "../src/commands/setup.js";
+import { enableWrapper } from "../src/commands/enabl.js";
 
 const program = new Command();
 
@@ -21,5 +22,10 @@ program
   .command("setup")
   .description("Configure your API provider and keys")
   .action(setupCommand);
+
+program
+  .command("enable-wrapper")
+  .description("Enable gitpilot git wrapper")
+  .action(enableWrapper);
 
 program.parse(process.argv);
