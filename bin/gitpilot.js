@@ -2,7 +2,7 @@
 import { Command } from "commander";
 import { commitCommand } from "../src/commands/commit.js";
 import { setupCommand } from "../src/commands/setup.js";
-import { enableWrapper } from "../src/commands/enabl.js";
+import { enableWrapper } from "../src/commands/enable-wrapper.js";
 
 const program = new Command();
 
